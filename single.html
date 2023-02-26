@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tin Tức Tốt</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Đọc báo mới mỗi ngày" name="keywords">
+    <meta content="Báo chọn lọc" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center bg-dark px-lg-5">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-n2">
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Thứ sáu, ngày 17 tháng 2 năm 2023</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Quảng cáo</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body small" href="#">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 text-right d-none d-md-block">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-auto mr-n2">
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-twitter"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-facebook-f"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-linkedin-in"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-instagram"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-google-plus-g"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-youtube"></small></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row align-items-center bg-white py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-uppercase text-primary">Tin Tức<span
+                            class="text-secondary font-weight-normal"> Tốt</span></h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
+                <a href=""><img class="img-fluid" src="" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-4 text-uppercase text-primary">Tin Tức<span
+                        class="text-white font-weight-normal"> Tốt</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Mới nhất</a>
+                    <a href="category.html" class="nav-item nav-link">Danh mục</a>
+                    <a href="single.html" class="nav-item nav-link active">Bài báo chọn lọc</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Theo khu vực</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="#" class="dropdown-item">Miền Bắc</a>
+                            <a href="#" class="dropdown-item">Miền Trung</a>
+                            <a href="#" class="dropdown-item">Miền Nam</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
+                </div>
+                <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
+                    <input type="text" class="form-control border-0" placeholder="Từ khoá tìm kiếm">
+                    <div class="input-group-append">
+                        <button class="input-group-text bg-primary text-dark border-0 px-3"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Breaking News Start -->
+    <div class="container-fluid mt-5 mb-3 pt-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between">
+                        <div class="section-title border-right-0 mb-0" style="width: 180px;">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Bài khác</h4>
+                        </div>
+                        <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center bg-white border border-left-0"
+                            style="width: calc(100% - 180px); padding-right: 100px;">
+                            <div class="text-truncate"><a class="text-secondary text-uppercase font-weight-semi-bold"
+                                    href="https://baochinhphu.vn/ngan-hang-nha-nuoc-khong-that-chat-tin-dung-vao-bat-dong-san-102230208191247725.htm">Ngân
+                                    hàng Nhà nước chưa thắt chặt tín dụng vào bất động sản</a></div>
+                            <div class="text-truncate"><a class="text-secondary text-uppercase font-weight-semi-bold"
+                                    href="https://zingnews.vn/nhan-vien-google-qua-nong-voi-va-vung-ve-trong-cuoc-dua-voi-chatgpt-post1400884.html">ChatGPT
+                                    và Google Bard trong cuộc đua A.I. chatbot, CEO Google đã quá nóng vội trong việc
+                                    triển khai chatbot?</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breaking News End -->
+
+
+    <!-- News With Sidebar Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- News Detail Start -->
+                    <div class="position-relative mb-3">
+                        <img class="img-fluid w-100" src="img/tiktok.png" style="object-fit: cover;">
+                        <div class="bg-white border border-top-0 p-4">
+                            <div class="mb-3">
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Góc
+                                    nhìn</a>
+                                <a class="text-body" href="">Jan 01, 2045</a>
+                            </div>
+                            <h1 class="mb-3 text-secondary text-uppercase font-weight-bold">TikTok - nơi ẩn chứa những
+                                trào lưu độc hại</h1>
+                            <p>Đầu năm nay, trào lưu vén áo lắc hông trước màn hình rồi chia sẻ lên TikTok được nhiều
+                                người thực hiện và gây tranh cãi tại Việt Nam
+                                TikTok, nền tảng video ngắn với hơn một tỷ người dùng, giúp giới trẻ sáng tạo nội dung,
+                                nhưng cũng là nơi phát tán không ít trào lưu gây hại.</p>
+                            <h5 class="text-uppercase font-weight-bold mb-3">Những thử thách tự hại bản thân</h5>
+                            <img class="img-fluid w-50 float-left mr-4 mb-2" src="img/challenge.jpg">
+                            <p>Giữa tháng 5, bà Tawainna Anderson, sống tại Pennsylvania (Mỹ), kiện TikTok sau khi con
+                                gái 10 tuổi của bà tử vong vì thực hiện thử thách trên mạng xã hội. Bà cho biết bé Nylah
+                                đã tham gia trò "Thử thách ngạt thở", yêu cầu người chơi thực hiện một số hành động gây
+                                ngạt để rơi vào trạng thái ngất xỉu tạm thời. Khi tỉnh lại, họ sẽ chia sẻ video lên nền
+                                tảng. Nylah được phát hiện nằm bất động trong phòng ngủ ngày 7/12/2021 và được đưa đến
+                                bệnh viện nhưng tử vong sau đó 5 ngày.
+
+                                Đơn kiện mô tả cô bé đã phát hiện thử thách thông qua các video về những xu hướng đang
+                                lan truyền, được gợi ý trên trang For You của TikTok.
+
+                            <p>Đây không phải lần đầu trên Tiktok xuất hiện trào lưu khuyến khích người dùng tự gây hại
+                                cho bản thân. Theo New York Post, tháng 8 năm ngoái, nền tảng này đã phải xóa các nội
+                                dung chứa hastag #milkcratechallenge. Thử thách yêu cầu người dùng xếp các thùng sữa
+                                bằng nhựa theo hình kim tự tháp và cố giữ thăng bằng khi trèo lên đỉnh, sau đó bước
+                                xuống mà không bị ngã. Thực tế, hầu hết người tham gia đều ngã và nhiều người bị thương
+                                trong quá trình thực hiện.
+                                nhiều trào lưu độc hại khác cũng lan truyền trên TikTok, như Veneer Vlog (mài răng),
+                                Benadryl Challenge (uống nhiều thuốc dị ứng để tạo ảo giác), Penny Challenge (cắm hờ sạc
+                                điện thoại vào ổ điện, sau đó thả đồng xu vào khe hở để tạo tia lửa), khiến các chuyên
+                                gia và bác sĩ phải lên tiếng cảnh báo vì sự nguy hiểm.</p>
+                            <p>Theo báo cáo tiêu chuẩn cộng đồng của TikTok cuối năm 2021, mạng xã hội này đã xóa hàng
+                                triệu video vi phạm liên quan đến bạo lực, khiêu dâm, tự gây hại... Tuy nhiên, không ít
+                                trào lưu độc hại vẫn đang diễn ra mà nền tảng không kiểm soát hết được.</p>
+                            <h5 class="text-uppercase font-weight-bold mb-3">Ám ảnh về sự hoàn hảo </h5>
+                            <p>Không chỉ có những thử thách gây hại, trên Tiktok còn hàng loạt trào lưu cổ súy cho vẻ
+                                đẹp phi thực tế theo khuôn mẫu. Thông qua các bộ lọc video, TikTok tạo cho người dùng vẻ
+                                đẹp hoàn hảo như mắt to, mũi cao, má hồng, da trắng... khiến họ thấy mình xinh đẹp hơn.
+                            </p>
+                            <p> Hiện chưa có nghiên cứu đầy đủ về tác động tâm lý của các bộ lọc ảnh và video trên các
+                                nền tảng mạng xã hội như TikTok, Snapchat... Tuy nhiên, theo tiến sĩ Jasmine Fardouly
+                                tại Đại học New South Wales, khi không đạt được tiêu chuẩn về sự trẻ đẹp, nhiều người
+                                tìm đến sự hài lòng trên ứng dụng, dần ảo tưởng về chính mình và không chấp nhận thực
+                                tế.
+                            </p>
+                            <h5 class="text-uppercase font-weight-bold mb-3">Khoe thân để nổi tiếng</h5>
+
+                            <p>Không ít người dùng TikTok chạy theo việc khoe thân để nổi tiếng. Trang The Tab từng cảnh
+                                báo về trào lưu "nake challenge" khi nhiều cô gái quay cảnh lột đồ, khỏa thân trước mặt
+                                người yêu, bạn bè, người thân... chỉ để ghi lại phản ứng của họ. Trào lưu vén áo lắc
+                                hông trước màn hình điện thoại cũng được nhiều cô gái trẻ thực hiện và gây tranh cãi tại
+                                Việt Nam những tháng đầu năm</p>
+                            <p> "Đối với một cô gái trẻ đang phát triển bản sắc của mình, bị cuốn vào một môi trường độc
+                                hại như thế là một điều vô cùng hủy diệt. Khi các cô gái tuổi teen được khen ngợi vì sự
+                                gợi cảm, họ tin giá trị của họ nằm ở vẻ bề ngoài của họ", chuyên gia tâm lý Paul Sunseri
+                                tại El Dorado Hills, California, nhận định trên Ifstudies.</p>
+
+                            <p> "Khi trẻ em và thanh thiếu niên đã phải vật lộn với các vấn đề về lo lắng, áp lực xã hội
+                                và trầm cảm, chúng ta không thể cho phép mạng xã hội làm tổn hại thêm đến sức khỏe thể
+                                chất và tinh thần của chúng", Tổng chưởng lý Massachusetts Maura Healey nói khi công bố
+                                cuộc điều tra của các bang tại Mỹ nhằm vào TikTok đầu năm nay để xác định mức độ tác
+                                động của nền tảng video ngắn này tới trẻ em.</p>
+                            <p> Nguồn: https://vnexpress.net/tiktok-noi-an-chua-nhung-trao-luu-doc-hai-4466164.html </p>
+                        </div>
+                        <div class="d-flex justify-content-between bg-white border border-top-0 p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle mr-2" src="img/user.jpg" width="25" height="25" alt="">
+                                <span>John Doe</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="ml-3"><i class="far fa-eye mr-2"></i>666</span>
+                                <span class="ml-3"><i class="far fa-comment mr-2"></i>3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- News Detail End -->
+
+                    <!-- Comment List Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">3 Bình luận</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-4">
+                            <div class="media mb-4">
+                                <img src="img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                                <div class="media-body">
+                                    <h6><a class="text-secondary font-weight-bold" href="">John Doe</a> <small><i>01 Jan
+                                                2045</i></small></h6>
+                                    <p>Chính xác, tiktok cực kỳ nguy hiểm với lứa tuổi đang phát triển,
+                                        ngay cả người lớn cả tin còn bị cuốn theo những tin tức giả tràn lan trên đó.
+                                    </p>
+                                    <button class="btn btn-sm btn-outline-secondary">Trả lời</button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img src="img/marcus.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                                <div class="media-body">
+                                    <h6><a class="text-secondary font-weight-bold" href="">Marcus</a> <small><i>01 Jan
+                                                2045</i></small></h6>
+                                    <p>Người lớn còn chưa nhìn thấy hết tác hại của những điều vô bổ,
+                                        huống gì cái xấu nó ngấm ngầm ảnh hưởng rất lớn và sâu rộng tới trẻ nhỏ và lứa
+                                        tuổi thiếu niên !</p>
+                                    <button class="btn btn-sm btn-outline-secondary">Trả lời</button>
+                                    <div class="media mt-4">
+                                        <img src="img/maria.jpg" alt="Image" class="img-fluid mr-3 mt-1"
+                                            style="width: 45px;">
+                                        <div class="media-body">
+                                            <h6><a class="text-secondary font-weight-bold" href="">Maria</a>
+                                                <small><i>01 Jan 2045</i></small>
+                                            </h6>
+                                            <p>Ngày càng lún sâu vào thế giới ảo mà bỏ quên cuộc sống thực,
+                                                tham gia vào những trào lưu vô bổ như vậy trên mạng xã hội
+                                                vốn dĩ chẳng đem lại lợi ích gì cho bản thân ngoại trừ một
+                                                số ít người thực sự có thể kiếm ra tiền từ nó, còn lại phần
+                                                đông chỉ đang lãng phí thời gian và giúp người khác làm giàu.</p>
+                                            <button class="btn btn-sm btn-outline-secondary">Trả lời</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Comment List End -->
+
+                    <!-- Comment Form Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Để lại bình luận</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-4">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="name">Tên *</label>
+                                            <input type="text" class="form-control" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="email">Email *</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="website">Website</label>
+                                    <input type="url" class="form-control" id="website">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Mô tả *</label>
+                                    <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <input type="submit" value="Bình luận"
+                                        class="btn btn-primary font-weight-semi-bold py-2 px-3">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Comment Form End -->
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- Social Follow Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Theo dõi chúng tôi</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3"
+                                style="background: #39569E;">
+                                <i class="fab fa-facebook-f text-center py-4 mr-3"
+                                    style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Fans</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3"
+                                style="background: #52AAF4;">
+                                <i class="fab fa-twitter text-center py-4 mr-3"
+                                    style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Followers</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3"
+                                style="background: #0185AE;">
+                                <i class="fab fa-linkedin-in text-center py-4 mr-3"
+                                    style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Connects</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3"
+                                style="background: #C8359D;">
+                                <i class="fab fa-instagram text-center py-4 mr-3"
+                                    style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Followers</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3"
+                                style="background: #DC472E;">
+                                <i class="fab fa-youtube text-center py-4 mr-3"
+                                    style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Subscribers</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none"
+                                style="background: #055570;">
+                                <i class="fab fa-vimeo-v text-center py-4 mr-3"
+                                    style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Followers</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Social Follow End -->
+
+                    <!-- Ads Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Quảng cáo</h4>
+                        </div>
+                        <div class="bg-white text-center border border-top-0 p-3">
+                            <a href=""><img class="img-fluid" src="img/news-800x500-2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- Ads End -->
+
+                    <!-- Popular News Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Xu hướng</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/Du lịch.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2"
+                                            href="">Du lịch</a>
+                                        <a class="text-body" href=""><small>09 Tháng 12, 2023</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Người trẻ
+                                        và những thay đổi trong xu hướng du lịch</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/việc làm.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2"
+                                            href="">Khởi nghiệp</a>
+                                        <a class="text-body" href=""><small>04 Tháng 1, 2023</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Cuộc thi
+                                        ‘Lan tỏa năng lượng tích cực 2022’...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/freelancer.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2"
+                                            href="">việc làm</a>
+                                        <a class="text-body" href=""><small>26 Tháng 8, 2023</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Freelancer:
+                                        xu hướng việc làm</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/kinh doanh.jpg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2"
+                                            href="">Kinh doanh</a>
+                                        <a class="text-body" href=""><small>17 Tháng 2, 2023</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Mô hình
+                                        kinh doanh chuyển sang online trong tương lai</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="img/hộp sắt.jpeg" alt="">
+                                <div
+                                    class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2"
+                                            href="">Góc nhìn</a>
+                                        <a class="text-body" href=""><small>25 Tháng 2 2023</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Những hộp
+                                        sắt tây đong đầy kỷ niệm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Popular News End -->
+
+                    <!-- Newsletter Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Đăng ký bản tin</h4>
+                        </div>
+                        <div class="bg-white text-center border border-top-0 p-3">
+                            <p>Nếu bạn có nhu cầu, chúng tôi sẽ gửi cho bạn những mấu bản tin mới được chọn lọc hằng
+                                ngày</p>
+                            <div class="input-group mb-2" style="width: 100%;">
+                                <input type="text" class="form-control form-control-lg" placeholder="Email của bạn">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary font-weight-bold px-3">Đăng ký</button>
+                                </div>
+                            </div>
+                            <small>Vui lòng điền thông tin email tại đây</small>
+                        </div>
+                    </div>
+                    <!-- Newsletter End -->
+
+                    <!-- Tags Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Danh mục</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <div class="d-flex flex-wrap m-n1">
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Chính trị</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kinh tế</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Doanh nghiệp</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kinh doanh</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Sức khoẻ</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Giáo dục</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Khoa học</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Thế thao</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Đồ ăn</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Du lịch</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- News With Sidebar End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark pt-5 px-sm-3 px-md-5 mt-5">
+        <div class="row py-4">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Liên lạc</h5>
+                <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>345 đường Trần Đại Nghĩa, Đà
+                    Nẵng, Việt Nam</p>
+                <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+(024) 3-213-3232</p>
+                <p class="font-weight-medium"><i class="fa fa-envelope mr-2"></i>tintuctot@gmail.com</p>
+                <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Theo dõi chúng tôi trên</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Tin nổi bật</h5>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Kinh
+                            doanh</a>
+                        <a class="text-body" href=""><small>02 Tháng 3, 2023</small></a>
+                    </div>
+                    <a class="small text-body text-uppercase font-weight-medium"
+                        href="https://www.cbc.ca/news/business/why-the-rich-get-richer-and-the-poor-get-poorer-1.2580263">Vì
+                        sao người giàu đang càng ngày giàu hơn và người nghè...</a>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Chính
+                            trị</a>
+                        <a class="text-body" href=""><small>04 Tháng 2, 2022</small></a>
+                    </div>
+                    <a class="small text-body text-uppercase font-weight-medium"
+                        href="https://www.fastcompany.com/1821479/7-steps-getting-paid-more-and-promoted-faster">"Làm
+                        cách nào để được trả lương cao và được thăng tiến...</a>
+                </div>
+                <div class="">
+                    <div class="mb-2">
+                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Giáo
+                            dục</a>
+                        <a class="text-body" href=""><small>05 Tháng 8, 2022</small></a>
+                    </div>
+                    <a class="small text-body text-uppercase font-weight-medium"
+                        href="https://www.cnbc.com/video/2018/03/26/david-rockefeller-jr-s-secret-to-raising-unspoiled-kids.html">Cách
+                        nuôi con của các gia đình giàu có và quyền lực nhấ...</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Danh mục</h5>
+                <div class="m-n1">
+                    <a href="" class="btn btn-sm btn-secondary m-1">Chính trị</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Kinh doanh</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Tập đoàn</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Tâm sự</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Sức khoẻ</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Giáo dục</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Khoa học</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Podcasts</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Đồ ăn</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Giải trí</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Du lịch</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Lối sống</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Giao thông</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Luật pháp</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Góc nhìn</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Thế giới</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Sắc đẹp</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Phát minh</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Nhịp sống</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Thời sự</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Đời sống</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Ảnh liên quan</h5>
+                <div class="row">
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-2.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-3.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-4.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-5.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href=""><img class="w-100" src="img/news-110x110-1.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
+        <p class="m-0 text-center">&copy; <a href="#">Tin Tức Tốt</a>. All Rights Reserved.
+
+            Design by <a href="https://www.facebook.com/phuctran995">Phúc Trần</a></p>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
